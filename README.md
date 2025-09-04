@@ -49,24 +49,6 @@ All interactivity is managed through **a single visual per dashboard**, which:
 
 ---
 
-## 🖼️ Project Screenshots
-
-Here are some snapshots from the dashboards:
-
-1. **Product Performance Dashboard**  
-   ![Top Product Performance Dashboard](Dashboard_Screenshots/top_N_Dash_1.png)
-
-2. **Sales & Profit Analysis Dashboard**  
-   ![Lowest Product Performance Dashboard](Dashboard_Screenshots/bottom_N.png)
-
-3. **Custom Dashboard**  
-   ![Custom Dashboard](Dashboard_Screenshotscustom_dash.png)
-   
-4. **More Details**
-   ![Second Dashboard](Dashboard_Screenshots/dash_2.png)
-
----
-
 ## 🔗 Project Demo
 📽️ You can check out the full demo video in my LinkedIn post here:  
 [👉 View on LinkedIn](https://www.linkedin.com/posts/mohamed-hatem-921936258_powerbi-dataanalytics-businessintelligence-activity-7354752358016282624-PCKM?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD9_jKkBtFrvtFfLdIMcI-yI7XX-qpdHQdM)
