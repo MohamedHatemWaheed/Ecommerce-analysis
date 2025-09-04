@@ -46,6 +46,31 @@ The dashboards empower users to dynamically explore data using interactive butto
 ## 👤 User Experience
 All interactivity is managed through **a single visual per dashboard**, which:  
 - Optimizes space.  
+
+---
+
+## 🖼️ Project Screenshots
+
+Here are some snapshots from the dashboards:
+
+1. **Product Performance Dashboard**  
+   ![Top Product Performance Dashboard](Dashboard_Screenshots/top n dash 1.png)
+
+2. **Sales & Profit Analysis Dashboard**  
+   ![lowest Product Performance Dashboard](Dashboard_Screenshots/bottom N.png)
+
+3. **Custome Dashboard**  
+   ![Custome Dashboard](Dashboard_Screenshots/custom dash 1.png)
+   
+4. **More Details**
+   ![second Dashboard](Dashboard_Screenshots/dash 2.png)
+
+---
+
+## 🔗 Project Demo
+📽️ You can check out the full demo video in my LinkedIn post here:  
+[👉 View on LinkedIn](https://www.linkedin.com/posts/mohamed-hatem-921936258_powerbi-dataanalytics-businessintelligence-activity-7354752358016282624-PCKM?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD9_jKkBtFrvtFfLdIMcI-yI7XX-qpdHQdM)
+
 - Reduces visual clutter.  
 - Simplifies user interaction.  
 - Improves understanding of complex datasets.  
