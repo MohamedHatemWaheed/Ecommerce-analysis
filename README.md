@@ -54,13 +54,13 @@ All interactivity is managed through **a single visual per dashboard**, which:
 Here are some snapshots from the dashboards:
 
 1. **Product Performance Dashboard**  
-   ![Top Product Performance Dashboard](Dashboard_Screenshots/top_n_dash_1.png)
+   ![Top Product Performance Dashboard](Dashboard_Screenshots/top_N_Dash_1.png)
 
 2. **Sales & Profit Analysis Dashboard**  
    ![Lowest Product Performance Dashboard](Dashboard_Screenshots/bottom_N.png)
 
 3. **Custom Dashboard**  
-   ![Custom Dashboard](Dashboard_Screenshots/custom_dash_1.png)
+   ![Custom Dashboard](Dashboard_Screenshotscustom_dash.png)
    
 4. **More Details**
    ![Second Dashboard](Dashboard_Screenshots/dash_2.png)
