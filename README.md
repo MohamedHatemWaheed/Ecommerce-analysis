@@ -69,7 +69,7 @@ To deliver this level of interactivity without cluttering the report, I implemen
 
 ## 📽️ Full Demo
 Experience the smooth transitions and interactive slicers in action:
-👉 **[View the Full Video Demo on LinkedIn](https://vimeo.com/1177020649?share=copy&fl=sv&fe=ci)**
+👉 **[View the Full Dashboard Presentation](https://vimeo.com/1177020649?share=copy&fl=sv&fe=ci)**
 
 ---
 
