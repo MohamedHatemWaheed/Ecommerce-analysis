@@ -14,7 +14,7 @@ This project transforms standard transactional data into a **Dynamic Narrative**
 ## 🚀 Navigation & Experience
 The journey begins at the **Interactive Home Page**, designed to minimize cognitive load and provide a "Web-App" feel.
 
-![Home Page](home_page.jpg)
+![Home Page](Dashboard_screenshots/home_page.png)
 
 > **Insight:** Users aren't forced into a maze of tabs. They choose their strategic path—**Sales Analysis** or **Distribution**—immediately upon entry.
 
@@ -27,19 +27,19 @@ This dashboard is a dynamic engine. Using the custom sidebar, users can toggle b
 
 ### **View A: The Winners (Top N)**
 *Identifying the engines of growth.*
-![Top N Dashboard](top_N_Dash_1.jpg)
+![Top N Dashboard](Dashboard_screenshots/top_N_Dash_1.png)
 * **🟢 Green Excellence:** Highlights the "Running Shoes" ($53M) and "NeoStore" as the primary revenue anchors.
 * **Marketing Win:** The **"Green Week"** campaign is a massive outlier with a **520% ROI**, signaling a clear strategy for next quarter's budget allocation.
 
 ### **View B: The Red Flags (Bottom N)**
 *Spotting leakage before it becomes a crisis.*
-![Bottom N Dashboard](bottom_N.jpg)
+![Bottom N Dashboard](Dashboard_screenshots/bottom_N.png)
 * **🔴 Critical Alert:** While total sales sit at $2.75bn, the **"Bosch Refrigerator"** and **"GadgetZone"** store are lagging significantly behind.
 * **The Growth Story:** The "Sales Growth Over Time" chart reveals a sharp decline in late 2024, dropping from $371M to $60M. This visual prompt forces an immediate investigation into Q4 seasonality or supply chain disruptions.
 
 ### **View C: Custom Deep-Dive**
 *For the surgical precision required by Category Managers.*
-![Custom Dashboard](custom_dash.jpg)
+![Custom Dashboard](Dashboard_screenshots/custom_dash.png)
 * **On-Demand Slicers:** Using **Bookmarks**, I implemented hidden slicer panels that only appear in Custom Mode. This keeps the interface clean while offering 100% granular control over specific product comparisons.
 
 ---
@@ -47,7 +47,7 @@ This dashboard is a dynamic engine. Using the custom sidebar, users can toggle b
 ## 👥 Dashboard 2: Customer & Salesperson Analysis
 *The Human Capital & Market Penetration*
 
-![Customer & Sales Analysis](dash_2.jpg)
+![Customer & Sales Analysis](Dashboard_screenshots/dash_2.png)
 
 * **Regional Dominance:** The **Southwest** leads in volume (22,163 customers), but the stacked bars reveal the "quality" of that volume, showing a healthy mix of **Premium** and **Loyal** shoppers.
 * **Retention Risk:** The red segments represent **"Churn Risk."** By visualizing this by region, the marketing team can deploy targeted re-engagement offers to the West Coast specifically.
@@ -69,7 +69,7 @@ To deliver this level of interactivity without cluttering the report, I implemen
 
 ## 📽️ Full Demo
 Experience the smooth transitions and interactive slicers in action:
-👉 **[View the Full Video Demo on LinkedIn](YOUR_LINK_HERE)**
+👉 **[View the Full Video Demo on LinkedIn](https://vimeo.com/1177020649?share=copy&fl=sv&fe=ci)**
 
 ---
 
