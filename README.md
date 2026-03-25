@@ -1,57 +1,83 @@
-# 📊 ECommerce Dashboard Analysis
+# 🛒 E-Commerce Performance Command Center
+### *A Strategic Narrative through Dynamic Data Modeling*
 
-## 📝 Project Description
-This project represents a significant advancement over previous work by leveraging advanced dynamic measures and interactive elements to deliver a fully customizable and user-friendly dashboard experience for an American eCommerce company.
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![DAX](https://img.shields.io/badge/Advanced_DAX-005A9C?style=for-the-badge)
 
----
+## 📖 The Story
+In a high-volume e-commerce environment, a static report is a missed opportunity. Decision-makers don't just need to know "what" happened; they need to pinpoint **outliers**—the champions to reward and the red flags to fix.
 
-## 🔎 Overview
-I designed a highly interactive **Home Page** that allows seamless navigation between two primary dashboards:
-
-- **Sales & Profit Analysis Dashboard**  
-  Analyzes sales and profit metrics by product, store location (branch), and marketing campaigns.
-
-- **Customer & Salesperson Analysis Dashboard**  
-  Provides insights into customer distribution by region and segments (Loyal, High Value, etc.) and evaluates the performance of each salesperson.
+This project transforms standard transactional data into a **Dynamic Narrative**. Using a custom-built "N-Factor" engine, this dashboard allows a user to switch from a high-level bird's-eye view to a surgical "Custom" analysis in a single click.
 
 ---
 
-## 🎛 Interactive Features
-The dashboards empower users to dynamically explore data using interactive buttons to switch between:
+## 🚀 Navigation & Experience
+The journey begins at the **Interactive Home Page**, designed to minimize cognitive load and provide a "Web-App" feel.
 
-- **Top N performers**
-- **Bottom N performers**
-- **Custom selections**
+![Home Page](home_page.jpg)
 
-👉 Users can define the value of **N** (e.g., Top 5, Top 8) with a slicer, which updates chart titles dynamically.  
-👉 In **Custom Mode**, users can select specific products or individuals via a hidden slicer that appears only when needed, keeping the interface clean.
+> **Insight:** Users aren't forced into a maze of tabs. They choose their strategic path—**Sales Analysis** or **Distribution**—immediately upon entry.
 
 ---
 
-## ⚙️ Technical Highlights
-- Developed **DAX measures** for flexible data display and dynamic chart updates.  
-- Applied **conditional formatting** in charts with colors:  
-  - 🟢 Green → Top performers  
-  - 🔴 Red → Lowest performers  
-  - 🟡 Beige → Intermediate values  
-- Built **dynamic titles** that adjust automatically based on slicer choices.  
-- Created logical measures to minimize excessive filtering and boost report performance.  
-- Designed supporting tables:  
-  - **ViewMode** → For mode selection (Top/Bottom/Custom).  
-  - **TopN_Selector** → For setting number of displayed items.  
-- Implemented **Bookmarks** to toggle slicer visibility in Custom Mode for a tidy interface.  
+## 📊 Dashboard 1: Product & Marketing Performance
+*The Pulse of Revenue & ROI*
+
+This dashboard is a dynamic engine. Using the custom sidebar, users can toggle between **Top N**, **Bottom N**, and **Custom** views. The titles and colors update instantly to reflect the data’s "mood."
+
+### **View A: The Winners (Top N)**
+*Identifying the engines of growth.*
+![Top N Dashboard](top_N_Dash_1.jpg)
+* **🟢 Green Excellence:** Highlights the "Running Shoes" ($53M) and "NeoStore" as the primary revenue anchors.
+* **Marketing Win:** The **"Green Week"** campaign is a massive outlier with a **520% ROI**, signaling a clear strategy for next quarter's budget allocation.
+
+### **View B: The Red Flags (Bottom N)**
+*Spotting leakage before it becomes a crisis.*
+![Bottom N Dashboard](bottom_N.jpg)
+* **🔴 Critical Alert:** While total sales sit at $2.75bn, the **"Bosch Refrigerator"** and **"GadgetZone"** store are lagging significantly behind.
+* **The Growth Story:** The "Sales Growth Over Time" chart reveals a sharp decline in late 2024, dropping from $371M to $60M. This visual prompt forces an immediate investigation into Q4 seasonality or supply chain disruptions.
+
+### **View C: Custom Deep-Dive**
+*For the surgical precision required by Category Managers.*
+![Custom Dashboard](custom_dash.jpg)
+* **On-Demand Slicers:** Using **Bookmarks**, I implemented hidden slicer panels that only appear in Custom Mode. This keeps the interface clean while offering 100% granular control over specific product comparisons.
 
 ---
 
-## 👤 User Experience
-All interactivity is managed through **a single visual per dashboard**, which:  
-- Optimizes space.  
+## 👥 Dashboard 2: Customer & Salesperson Analysis
+*The Human Capital & Market Penetration*
+
+![Customer & Sales Analysis](dash_2.jpg)
+
+* **Regional Dominance:** The **Southwest** leads in volume (22,163 customers), but the stacked bars reveal the "quality" of that volume, showing a healthy mix of **Premium** and **Loyal** shoppers.
+* **Retention Risk:** The red segments represent **"Churn Risk."** By visualizing this by region, the marketing team can deploy targeted re-engagement offers to the West Coast specifically.
+* **Star Performers:** Visualizing **Michael Davis** and **Jason Miller** as top sellers allows management to benchmark their performance against the "Category-wise Brand Coverage" table.
 
 ---
 
-## 🔗 Project Demo
-📽️ You can check out the full demo video in my LinkedIn post here:  
-[👉 View on LinkedIn](https://www.linkedin.com/posts/mohamed-hatem-921936258_powerbi-dataanalytics-businessintelligence-activity-7354752358016282624-PCKM?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD9_jKkBtFrvtFfLdIMcI-yI7XX-qpdHQdM)
+## ⚙️ Technical Mastery (The "How")
+To deliver this level of interactivity without cluttering the report, I implemented:
+
+* **Dynamic DAX Engines:** Created disconnected tables for `ViewMode` and `TopN_Selector` to drive visual filtering.
+* **Smart Titles:** Used DAX-driven titles that change based on user slicer selection (e.g., *"Top 5 Products"* vs *"Bottom 10 Products"*).
+* **Conditional Formatting Logic:** * 🟢 **Top Performers**
+    * 🟡 **Intermediate Values**
+    * 🔴 **Lowest Performers**
+* **Optimization:** Utilized **Switch Measures** and **Bookmarks** to reduce the number of visuals per page, significantly boosting report loading speed and performance.
+
+---
+
+## 📽️ Full Demo
+Experience the smooth transitions and interactive slicers in action:
+👉 **[View the Full Video Demo on LinkedIn](YOUR_LINK_HERE)**
+
+---
+
+### 🛠️ Tools Used
+* **Power BI Desktop** (Data Modeling & UI)
+* **Advanced DAX** (Dynamic Measures & Logic)
+* **Power Query** (ETL & Schema Design)
+
 
 - Reduces visual clutter.  
 - Simplifies user interaction.  
