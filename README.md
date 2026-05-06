@@ -4,10 +4,73 @@
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 ![DAX](https://img.shields.io/badge/Advanced_DAX-005A9C?style=for-the-badge)
 
+---
+
+## Business Problem
+
+A mid-sized e-commerce company has $2.75B in annual sales across 500 stores, 210 products, and 2,000 employees. But their reporting is static — managers receive the same fixed tables every week. They cannot instantly see who is winning, who is failing, or compare custom selections of products or stores. This results in slow decisions, missed opportunities, and problems that fester until they become crises.
+
+---
+
+## Why It Matters
+
+| Area | Impact |
+|------|--------|
+| **Revenue** | $2.75B at risk from underperforming products/stores going unnoticed |
+| **Marketing Efficiency** | $28M annual spend with ROI ranging from 55% to 520% — massive reallocation opportunity |
+| **Efficiency** | Managers waste 5-10 hours per week manually filtering data instead of taking action |
+
+---
+
 ## 📖 The Story
 In a high-volume e-commerce environment, a static report is a missed opportunity. Decision-makers don't just need to know "what" happened; they need to pinpoint **outliers**—the champions to reward and the red flags to fix.
 
 This project transforms standard transactional data into a **Dynamic Narrative**. Using a custom-built "N-Factor" engine, this dashboard allows a user to switch from a high-level bird's-eye view to a surgical "Custom" analysis in a single click.
+
+---
+
+## Dataset
+
+| Item | Details |
+|------|---------|
+| **Source** | Internal e-commerce transaction database (anonymized) |
+| **Size** | 6 dimension tables + 1 normalized fact table |
+| **Tables** | `dim_campaigns`, `dim_customers`, `dim_dates`, `dim_products`, `dim_sales_person`, `dim_stores`, `fact_sales` |
+| **Volume** | 100K customers, 500 stores, 210 products, 2,000 salespeople, 24 months of transactions |
+
+---
+
+### Physical Data Model
+
+**Fact Table:** `fact_sales`
+
+**Dimension Tables:**
+- `dim_dates` (date_key)
+- `dim_products` (product_key)
+- `dim_stores` (store_key)
+- `dim_customers` (customer_key)
+- `dim_sales_person` (sales_person_key)
+- `dim_campaigns` (campaign_key)
+
+**Relationship:** Every dimension table joins to `fact_sales` via its primary key → foreign key relationship.
+
+**Schema Type:** Pure star schema — no many-to-many relationships, no bidirectional filters.
+
+---
+
+## Approach
+
+**Step 1:** Define what users actually need — not all data, but Top winners, Bottom losers, and Custom comparisons.
+
+**Step 2:** Build a single dynamic engine that lets users toggle between Top N, Bottom N, and Custom views with one click.
+
+**Step 3:** Design visual hierarchy — KPI cards first (total context), then outliers (Top/Bottom lists), then supporting trends (sales over time), then deep dives (regional, churn, salespeople).
+
+**Step 4:** Make it zero-training — titles change dynamically, colors tell the story (green = good, red = bad), and Custom mode reveals slicers only when needed.
+
+**Step 5:** Add regional and human context — customer segmentation by region, salesperson performance, and churn risk overlays.
+
+**Step 6:** Validate every visual with "So what?" — if a number changes, will anyone act differently?
 
 ---
 
