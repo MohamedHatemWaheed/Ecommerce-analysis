@@ -107,6 +107,27 @@ This dashboard is a dynamic engine. Using the custom sidebar, users can toggle b
 ![Custom Dashboard](Dashboard_screenshots/custom_dash_.png) 
 * **On-Demand Slicers:** Using **Bookmarks**, I implemented hidden slicer panels that only appear in Custom Mode. This keeps the interface clean while offering 100% granular control over specific product comparisons.
 
+* ### 🔍 Drill-Through: Campaign Deep Dive
+
+The **Campaigns by ROI** chart includes an interactive drill-through feature that allows users to explore campaign-level details in depth.
+
+#### How It Works:
+- Right-click on any campaign bar in the **Campaigns by ROI** chart.
+- Select `Drill through` → `📊 Campaign Deep Dive`.
+- A new page opens, filtered specifically for the selected campaign.
+
+#### What You Can Explore:
+- 📈 **ROI vs. Budget Scatter Chart** – visualizes the relationship between marketing spend and return on investment.
+- 📋 **Campaign Performance Table** – shows Revenue, Cost, Profit, and ROI % for the selected campaign.
+- 👥 **Customer Insights** – total unique customers acquired, and **One-Time Buyers** (customers who purchased once and never returned).
+- 💰 **Profitability Analysis** – compares revenue vs. cost to determine campaign efficiency.
+
+#### Why This Matters:
+This feature transforms static reporting into an interactive investigation tool, enabling managers to:
+- Quickly identify underperforming campaigns.
+- Understand customer retention per campaign.
+- Make data-backed budget reallocation decisions.
+
 ---
 
 ## 👥 Dashboard 2: Customer & Salesperson Analysis
