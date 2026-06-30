@@ -90,19 +90,21 @@ This dashboard is a dynamic engine. Using the custom sidebar, users can toggle b
 
 ### **View A: The Winners (Top N)**
 *Identifying the engines of growth.*
-![Top N Dashboard](Dashboard_screenshots/top_N_Dash_1.png)
+![Top N Dashboard](Dashboard_screenshots/top_N_Dash.png)
+
+
 * **🟢 Green Excellence:** Highlights the "Running Shoes" ($53M) and "NeoStore" as the primary revenue anchors.
 * **Marketing Win:** The **"Green Week"** campaign is a massive outlier with a **520% ROI**, signaling a clear strategy for next quarter's budget allocation.
 
 ### **View B: The Red Flags (Bottom N)**
 *Spotting leakage before it becomes a crisis.*
-![Bottom N Dashboard](Dashboard_screenshots/bottom_N.png)
+![Bottom N Dashboard](Dashboard_screenshots/bottom_N_.png)  
 * **🔴 Critical Alert:** While total sales sit at $2.75bn, the **"Bosch Refrigerator"** and **"GadgetZone"** store are lagging significantly behind.
 * **The Growth Story:** The "Sales Growth Over Time" chart reveals a sharp decline in late 2024, dropping from $371M to $60M. This visual prompt forces an immediate investigation into Q4 seasonality or supply chain disruptions.
 
 ### **View C: Custom Deep-Dive**
 *For the surgical precision required by Category Managers.*
-![Custom Dashboard](Dashboard_screenshots/custom_dash.png)
+![Custom Dashboard](Dashboard_screenshots/custom_dash_.png) 
 * **On-Demand Slicers:** Using **Bookmarks**, I implemented hidden slicer panels that only appear in Custom Mode. This keeps the interface clean while offering 100% granular control over specific product comparisons.
 
 ---
