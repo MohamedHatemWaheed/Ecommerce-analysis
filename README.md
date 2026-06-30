@@ -77,7 +77,7 @@ This project transforms standard transactional data into a **Dynamic Narrative**
 ## 🚀 Navigation & Experience
 The journey begins at the **Interactive Home Page**, designed to minimize cognitive load and provide a "Web-App" feel.
 
-![Home Page](Dashboard_screenshots/home_page.png)
+![Home Page](Dashboard_screenshots/home_page.png)   
 
 > **Insight:** Users aren't forced into a maze of tabs. They choose their strategic path—**Sales Analysis** or **Distribution**—immediately upon entry.
 
