@@ -17,7 +17,7 @@ A mid-sized e-commerce company has $2.75B in annual sales across 500 stores, 210
 | Area | Impact |
 |------|--------|
 | **Revenue** | $2.75B at risk from underperforming products/stores going unnoticed |
-| **Marketing Efficiency** | $28M annual spend with ROI ranging from 55% to 520% — massive reallocation opportunity |
+| **Marketing Efficiency** | $28M annual spend with ROI ranging from 27% to 252.62% — massive reallocation opportunity |
 | **Efficiency** | Managers waste 5-10 hours per week manually filtering data instead of taking action |
 
 ---
